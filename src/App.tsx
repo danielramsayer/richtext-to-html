@@ -28,11 +28,12 @@ function App() {
       <div className="header">
         <h1>AO3 Converter</h1>
         <button
+          className="button"
           onClick={() => {
             navigator.clipboard.writeText(value);
           }}
         >
-          Copy To Clipboard
+          <b>COPY TO CLIPBOARD</b>
         </button>
       </div>
       <div>
